@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>TPRS- Results</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body onload="return onceOpen()"> 
+    <div id="root">
+    <script src="request.js"></script>
+    <h2>Query Current Result</h2>
+    <form name="form" action="#" onsubmit="return calls()">
+        Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="name" type="text">
+        <br><br>
+        Password : <input id="password" type="password">
+        <br><br><br>
+        <input id="asdsad" name="sdsd" type="submit" >
+    </form>
+    <p id="pid"></p>
+    <table id="table">
+      <thead>
+        <td>
+          <h4>Results Sheet : </h4>
+        </td>
+      </thead>
+      <tr>
+        <td>Name</td><td id="tname"></td>
+      </tr>
+      <tr>
+        <td>Registration Number</td><td id="treg"></td>
+      </tr>
+      <tr>
+        <td>College Code</td><td id="tcollegecode"></td>
+      </tr>
+      <tr>
+        <td>Course ID</td><td id="tcourseid"></td>
+      </tr>
+      <tr>
+        <td>Certificate Version</td><td id="tcertificateversion"></td>
+      </tr>
+      <tr>
+        <td>Year - Semester</td><td id="tyearsemester"></td>
+      </tr>
+      <tr>
+        <td><h4>Marks : </h4></td>
+      </tr>
+      <tr>
+        <td><h4>Other info : </h4></td>
+      </tr>
+      <tr>
+        <td>Creation Time</td><td id="tcreationtime"></td>
+      </tr>
+      <tr>
+        <td>Transaction Id</td><td id="ttransactionid"></td>
+      </tr>
+    </table>
+  </div>
+  </body>
+</html>

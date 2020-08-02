@@ -1,0 +1,5 @@
+network/channel-artifacts/*
+network/crypto-config/*
+client/wallet/*
+bin/*
+chaincode/hyperledger/*
